@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background: black;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  margin-top: 100px;
+}
+
+.IphoneImg {
+  width: 40%;
+  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+  height: auto;
+}
+
+span {
+  color: white;
+  font-size: 130px;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 7ch;
+  margin-left: 20px; /* Espacio entre la imagen y el texto */
+  animation: typing 2s steps(7), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+/* Estilos generales del formulario */
+.contact-form {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para etiquetas (labels) */
+.form-label {
+  display: block; /* Hace que las etiquetas ocupen una línea completa */
+  margin-bottom: 10px; /* Espacio inferior entre etiquetas */
+  font-family: 'Anek Malayalam', sans-serif; /*google fonts*/
+  color: white; /* Color del texto en blanco */
+}
+
+/* Estilos para campos de entrada (input) y área de texto (textarea) */
+.form-input,
+.form-textarea {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 10px; /* Espaciado interior */
+  margin-bottom: 20px; /* Espacio inferior entre campos */
+  border: 1px solid #ccc; /* Borde con color de fondo */
+  border-radius: 5px; /* Bordes redondeados */
+  color: black; /* Color del texto en blanco */
+}
+
+/* Estilos para el botón de envío */
+.form-button {
+  background-color: #007BFF; /* Color de fondo del botón */
+  color: white; /* Color del texto en blanco */
+  padding: 10px 20px; /* Espaciado interior del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.form-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 920px) {
+	span{
+		font-size: 80px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	span{
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.contact-form {
+    max-width: 300px; /* Reducir el ancho del formulario */
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+	span{
+		display: none;
+	}
+	.IphoneImg {
+	  width: 80%;
+	  max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+	  height: auto;
+	}
+
+	.contact-form {
+    max-width: 200px; /* Reducir el ancho del formulario */
+  }
+	
+}
+
+
+
+@keyFrames typing {
+
+from { width: 0}
+}
+
+@keyFrames blink {
+ 50% { border-color: transparent}
+}
+
+hr {	
+  height: 1px;
+  margin-top: 190px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #DCDCDC;
+}
+
+.capacidad {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-top: 145px;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.capacidadTexto{
+	padding-right: 80px;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+ 	font-family: 'Roboto', sans-serif;
+}
+
+.tamanopeso{
+	position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-top: 145px;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  font-family: 'Roboto', sans-serif;
+}
+
+.tamanopesoTexto{
+	padding-right: 80px;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.chip{
+	position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-top: 145px;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  font-family: 'Roboto', sans-serif;
+}
+
+.chipTexto{
+	padding-right: 80px;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 434px) {
+	.camara{
+		margin-top: 30px;
+	}
+}
+
+.camara{
+	position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-top: 145px;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  font-family: 'Roboto', sans-serif;
+}
+
+.camaraTexto{
+	padding-right: 80px;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bateria{
+	position: absolute;
+  color: white;
+  font-size: 20px;
+  margin-top: 145px;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  font-family: 'Roboto', sans-serif;
+}
+
+.bateriaTexto{
+	padding-right: 80px;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+@media (max-width: 375px) {
+
+span {
+	color: white;
+	font-size: 9ch;
+	display: block;
+	font-family: monospace;
+	white-space: nowrap; /*suprime espacios blancos*/
+/*	border-right: 4px solid;
+	width: 7ch; /*hasta donde llega la barra de escritura*/
+/*	position: absolute;
+	top: 6ch;
+	left: 40%;
+
+	animation: typing 2s steps(7), blink .5s infinite step-end alternate;
+	overflow:hidden;
+}
+
+}  

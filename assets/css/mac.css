@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background: white;
+}
+
+.macImagen{
+  margin: auto;
+  display: block;
+	margin-top: 100px;
+	max-width: 100%;
+
+}
+
+
+.title{
+	color: black;
+	font-size: 100px;
+	display: flex;
+	font-family: 'Anek Malayalam', sans-serif;
+	margin-top: -30px;
+  align-items: center !important; /* Centra verticalmente los elementos */
+  justify-content: center !important; /* Centra horizontalmente los elementos */
+}
+
+@media screen and (max-width: 800px) {
+  
+  .title{
+    font-size: 60px;
+    margin-top: -50px;
+  }
+
+  .macImagen{
+    margin-top: 60px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  
+  .title{
+    font-size: 40px;
+  }
+
+  .macImagen{
+    margin-top: 40px;
+  }
+
+}
+
+.botones {
+  display: flex;
+  justify-content: center; /* Opcional: para centrar los botones horizontalmente */
+  margin: auto;
+}
+
+.button1,
+.button2 {
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #84B6FF;
+  font-weight: 1000; /* letra más oscura */
+  border-radius: 50px;
+  margin-right: 10px; /* Espacio entre botones */
+}
+
+@media screen and (max-width: 900px) {
+  .button2{
+    margin-left: -50px; /* Espacio entre botones */
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .button2{
+    margin-left: -65px; /* Espacio entre botones */
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .button2{
+    margin-left: -30px; /* Espacio entre botones */
+  }
+}
+
+.button1:hover,
+.button2:hover {
+  background: #B1D0FC;
+  color: #FFFFFF !important;
+}
+
+.m2 {
+  margin: auto;
+  display: block;
+  max-width: 100%; /* Hacer la imagen responsive */
+  height: auto; /* Mantener la proporción de aspecto */
+}
+
+
+.textm2 {
+  color: black;
+  text-align: center;
+  font-family: 'Public Sans', sans-serif;
+  padding: 0 50px; /* Añadir un relleno a los lados para evitar que el texto se desborde en pantallas estrechas */
+}
+
+@media screen and (max-width: 800px) {
+  .textm2 {
+    font-size: 24px; /* Ajustar el tamaño de fuente para pantallas más pequeñas */
+    line-height: 36px; /* Ajustar el espaciado de línea */
+  }
+}
+
+
+/* Segunda imagen */
+.panel1 {
+  margin: auto;
+  display: block;
+  max-width: 100%; /* Hacer la imagen responsive */
+  height: auto; /* Mantener la proporción de aspecto */
+}
+
+
+
+
+
+

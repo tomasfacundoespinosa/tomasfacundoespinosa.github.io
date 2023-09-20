@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.contenedor{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.applewatchprincipal{
+  	margin: auto;
+  	display: block;
+  	max-width: 100%;
+}
+
+.applewatchnew{
+	margin: auto;
+	display: block;
+	max-width: 100%;
+}
+
+.title{
+	color: black;
+	margin: auto;
+	display: block;
+	font-size: 130px;
+	font-family: 'Anek Malayalam', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1150px) {
+  
+  .title{
+    font-size: 90px;
+ 	}
+}
+
+@media screen and (max-width: 785px) {
+  
+  .title{
+    font-size: 50px;
+ 	}
+}
+
+
+
+.subtitle{
+	color: black;
+	margin: auto;
+	display: block;
+	font-size: 25px;
+	font-family: 'Anek Malayalam', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 460px) {
+  
+  .title{
+    font-size: 35px;
+ 	}
+
+ 	.subtitle{
+    font-size: 15px;
+ 	}
+}
+
+hr {	
+  height: 1px;
+  margin-top: 190px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #DCDCDC;
+}
+
+.pantalla{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 145px;
+  	left: 45%;
+  	font-family: 'Roboto', sans-serif;
+  	
+}
+
+.pantallatexto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+ 	font-family: 'Roboto', sans-serif;
+}
+
+.procesador{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 145px;
+  font-family: 'Roboto', sans-serif;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  	transform: translateX(-50%);
+}
+
+.procesadorTexto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.conectividad{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 145px;
+  font-family: 'Roboto', sans-serif;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  	transform: translateX(-50%);
+}
+
+.conectividadTexto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sensores{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 145px;
+  font-family: 'Roboto', sans-serif;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  	transform: translateX(-50%);
+}
+
+.sensoresTexto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.resagua{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 145px;
+  font-family: 'Roboto', sans-serif;
+  left: 50%; /* Alinea el centro del elemento con el centro del contenedor */
+  	transform: translateX(-50%);
+}
+
+.resaguaTexto{
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	margin-top: 55px;
+ 	left: 25%;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 478px) {
+	.pantallatexto,.procesadorTexto,.conectividadTexto,.sensoresTexto,.resaguaTexto{
+		font-size: 18px;
+	}
+}
+
+.cyn{
+	color: black;
+	margin: auto;
+	display: block;
+	font-size: 30px;
+	font-family: 'Anek Malayalam', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+}

@@ -1,0 +1,105 @@
+header{
+	display: flex; /*para que se muestre horizontal*/
+	justify-content: space-between; /*separa elementos en base al eje principal*/
+	height: 25px; /*altura header*/
+	background-color: #ECEAEA;
+	align-items: center; /*centra horizontalmente*/
+	padding: 20px; /*espaciado general*/
+	font-family: 'Anek Malayalam', sans-serif; /*google fonts*/ 
+
+	position: fixed;z-index:10; /* Hacemos que la cabecera tenga una posición fija*/
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+}
+
+.logoImg{
+	height: 35px;
+	padding-left: 10px;
+}
+
+a{
+	text-decoration: none; /*subrayado*/
+	color: #8A8A8A;
+}
+
+nav a{
+	padding-right: 80px ; /*espaciado derecha*/
+}
+
+nav a:hover{
+	color: black; /*color cuando pasamos el cursor*/
+}
+
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        padding-left: 20px;
+        background-color: white;
+    }
+
+    header::before {
+        content: "";
+        background-color: white;
+
+        height: 100%; /* Altura igual a la del encabezado */
+        width: 100vw; /* Ancho igual al ancho de la ventana */
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: -1; /* Coloca el fondo detrás del contenido */
+        justify-content: flex-start;
+
+    }
+
+    nav {
+        padding: 0px 20px; /* Espacio superior e inferior más pequeño, y relleno a la izquierda y derecha */
+    	padding-left: 0px;
+    }
+
+    .contenedor {
+        padding-top: 80px;
+    }
+
+    .logoImg {
+        margin-left: 10px;
+        margin-right: 30px;
+        	display: none;
+    }
+
+    a{
+    	color: black !important;
+    	padding: 30px !important;
+    	padding-left: 0px;
+    	margin: 0px;
+    }
+
+    body {
+        position: relative;
+        overflow-x: hidden; /* Oculta el desplazamiento horizontal */
+    }
+}
+
+@media(max-width: 566px){
+	
+
+	a{
+		font-size: 15px;
+		padding: 30px !important;
+		    }
+
+
+}
+
+@media(max-width: 454px){
+	
+	a{
+		font-size: 13px;
+		padding: 20px !important;
+		    }
+
+
+}
+
+

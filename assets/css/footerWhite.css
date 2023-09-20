@@ -1,0 +1,14 @@
+footer {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	background-color: #ECEAEA;
+	align-items: center;
+	vertical-align: middle;
+	font-size: 15px;
+	font-family: 'Anek Malayalam', sans-serif; /*google fonts*/ 
+}
+
+footer p{
+	color: #8A8A8A;
+}
